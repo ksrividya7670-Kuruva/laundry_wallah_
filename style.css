@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+nav{
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+    padding: 2vh 4vw;
+    border-bottom: 1px solid lightgray;
+}
+.logo{
+    display: inline-block;
+}
+.logo h1{
+    color: purple;
+}
+.menu{
+    display: inline-block;
+   width: 50vw;
+   text-align: center;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    margin-right: 2vw;
+    font-size: 1.3vw;
+}
+.user{
+    display: inline-block;
+    width: 20vw;
+    text-align: right;  
+}
+.user p{
+    display: inline-block;
+    background-color: #f07bcd;
+    color: white;
+    padding: 1vh 1.5vw;
+    border-radius: 2vw;
+    font-size: 1vw;
+}
+.menu a:hover{
+    color: purple;
+}
+.hero{
+    width: 100vw;
+    height: 90vh;
+    padding: 5vh 5vw;
+}
+.left{
+      width: 44vw;
+      display: inline-block;
+      height: 80vh;
+      vertical-align: middle;
+
+}
+.left h1{
+    font-size:4vw;
+    color:#2f3a45;
+    line-height: 5vw;
+    margin-top: 10vh;
+}
+.pink{
+    color: #f07bcd;
+    font-size: 4vw;
+    font-weight: bold;
+}
+ .left p{
+ margin-top:  3vh;
+ font-size:  1.4vw;
+ line-height:  2.5vw;
+ color: grey;
+
+}
+.left button{
+    margin-top:  4vh;
+    background-color: rgb(231, 47, 191);
+    color: white;
+    border: none;
+    padding:  2vh 2vw;
+    border-radius:  0.7vw;
+    font-size:1.2vw;
+}
+.left button:hover{
+    background-color: rgb(245, 106, 208);
+}
+.right{
+    width: 44vw;
+    display: inline-block;
+    vertical-align: middle;
+    height: 80vh;
+    text-align: center;
+    vertical-align: middle;
+}
+.right img{
+    width: 35vw;
+    height: 60vh;
+    margin-top: 8vh;
+}
